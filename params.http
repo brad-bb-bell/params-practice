@@ -1,0 +1,15 @@
+POST http://localhost:3000/home/
+Content-Type: application/json
+
+{
+  "message": "this text needs to be capitalized"
+}
+
+###
+
+get http://localhost:3000/query
+Content-Type: application/json
+
+{
+  "message": "this text needs to be capitalized"
+}
